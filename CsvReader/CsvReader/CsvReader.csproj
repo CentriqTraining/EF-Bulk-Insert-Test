@@ -68,6 +68,9 @@
     <None Include="Files\10k.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Files\1.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Files\1k.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

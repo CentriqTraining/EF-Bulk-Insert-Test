@@ -23,7 +23,7 @@ namespace CsvReader
         {
             //  we are going to run this test for EACH file below.
             //  These files have 1, 10 & 100 thousand fake addresses each
-            string[] files = { "1k.csv", "10k.csv", "100k.csv"};
+            string[] files = { "1.csv", "1k.csv", "10k.csv", "100k.csv"};
 
             //  This is the connection string for accessing the local database
             var connectionstring = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=BulkInsertTest;Integrated Security=True";
@@ -31,23 +31,26 @@ namespace CsvReader
 
             foreach (var filename in files)
             {
-                sw.Start();
-                EFInsertsTest(filename);
-                sw.Stop();
-                Console.WriteLine($"Total for EF Inserts {sw.Elapsed} - {filename}");
-                sw.Reset();
+                if (filename !="100k.csv")
+                {
+                    sw.Start();
+                    EFInsertsTest(filename);
+                    sw.Stop();
+                    Console.WriteLine($"Total for EF Inserts {sw.Elapsed} - {filename}");
+                    sw.Reset();
 
-                sw.Start();
-                EFInsertsNoChangeTrackingTest(filename);
-                sw.Stop();
-                Console.WriteLine($"Total for EF Inserts w/0 Change Tracking {sw.Elapsed} - {filename}");
-                sw.Reset();
+                    sw.Start();
+                    EFInsertsNoChangeTrackingTest(filename);
+                    sw.Stop();
+                    Console.WriteLine($"Total for EF Inserts w/0 Change Tracking {sw.Elapsed} - {filename}");
+                    sw.Reset();
 
-                sw.Start();
-                EFInsertsNoChangeTrackingOrValidateTest(filename);
-                sw.Stop();
-                Console.WriteLine($"Total for EF Inserts w/0 Change Tracking Or Validation {sw.Elapsed} - {filename}");
-                sw.Reset();
+                    sw.Start();
+                    EFInsertsNoChangeTrackingOrValidateTest(filename);
+                    sw.Stop();
+                    Console.WriteLine($"Total for EF Inserts w/0 Change Tracking Or Validation {sw.Elapsed} - {filename}");
+                    sw.Reset();
+                }
 
                 sw.Start();
                 AdoInsertsTest(filename, connectionstring);

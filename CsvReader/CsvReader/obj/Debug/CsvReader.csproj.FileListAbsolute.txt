@@ -17,3 +17,17 @@ D:\Users\Mike\Desktop\CsvReader\CsvReader\obj\Debug\CsvReader.pdb
 C:\Users\Mike Rissen\Source\Repos\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\CsvReader.exe.config
 C:\Users\Mike Rissen\Source\Repos\EF-Bulk-Insert-Test\CsvReader\CsvReader\obj\Debug\CsvReader.exe
 C:\Users\Mike Rissen\Source\Repos\EF-Bulk-Insert-Test\CsvReader\CsvReader\obj\Debug\CsvReader.pdb
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\Files\100k.csv
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\Files\10k.csv
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\Files\1k.csv
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\CsvReader.exe.config
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\CsvReader.exe
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\CsvReader.pdb
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\EntityFramework.dll
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\EntityFramework.xml
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\obj\Debug\CsvReader.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\obj\Debug\CsvReader.exe
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\obj\Debug\CsvReader.pdb
+C:\Users\Student\Documents\GitHub\EF-Bulk-Insert-Test\CsvReader\CsvReader\bin\Debug\Files\1.csv
